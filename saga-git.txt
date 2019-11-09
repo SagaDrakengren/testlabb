@@ -13,17 +13,19 @@ Arbeta:
 
 3) git status
 
-4) git commit -m "comment"
+Att spara ändringar i git kallas för "commit" och man skriver
+git commit -m "kommentar"
 
 
 Spara på github:
-git push origin master
-
+git push
 
 Hämta från github:
-git pull orgin
+git pull
 
 
+
+Avancerat användande:
 
 Ta bort en fil:
 git rm -r filename.txt
@@ -32,3 +34,5 @@ git rm -r filename.txt
 git log
 
 git checkout -b master
+git push origin master
+git pull origin
