@@ -1,0 +1,34 @@
+[x] fixa konto på github
+[x] fixa repository på github
+
+Skapa en katalog där man jobbar på datorn
+
+Gör en kopia från github:
+git clone https://github.com/SagaDrakengren/testlabb
+
+
+Arbeta:
+1) skapa filename.txt
+2) git add filename.txt
+
+3) git status
+
+4) git commit -m "comment"
+
+
+Spara på github:
+git push origin master
+
+
+Hämta från github:
+git pull orgin
+
+
+
+Ta bort en fil:
+git rm -r filename.txt
+
+
+git log
+
+git checkout -b master
