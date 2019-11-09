@@ -17,10 +17,10 @@ Att spara ändringar i git kallas för "commit" och man skriver
 git commit -m "kommentar"
 
 
-Spara på github:
+Spara ändringar på github:
 git push
 
-Hämta från github:
+Hämta ändringar från github:
 git pull
 
 
