@@ -24,14 +24,14 @@ Hämta ändringar från github:
 git pull
 
 
+git log
+
 
 Avancerat användande:
 
 Ta bort en fil:
 git rm -r filename.txt
 
-
-git log
 
 git checkout -b master
 git push origin master
