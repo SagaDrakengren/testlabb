@@ -3,40 +3,53 @@
 
 Skapa en katalog där man jobbar på datorn
 
-Gör en kopia från github:
+Skapa en kopia från github
+==========================
 git clone https://github.com/SagaDrakengren/testlabb
 
 
-Arbeta:
-1) skapa filename.txt
-2) git add filename.txt
-
-3) git status
-
-Att spara ändringar i git kallas för "commit" och man skriver
-git commit -m "kommentar"
-
-
-Spara ändringar på github:
-git push
-
-Hämta ändringar från github:
+Det första man gör i laborationskatalogen när man kommer till datorn är
+=======================================================================
 git pull
 
+Då kommer de senaste ändringarna som är sparade på github.com (internet) att hämtas.
+
+
+När man jobbar på labben
+========================
+Arbeta på en labb genom att skapa eller ändra t.ex. en fil som heter "filename.txt".
+
+För att se vad som är gjort på datorn skriver man:
+git status
+
+Då kommer filename.txt dyka upp i en lista över "ändrade filer"
+För att tala om för git vilka ändringar man vill spara så skriver man:
+git add filename.txt
+
+Då talar man om för git att nästa gång man sparar så skall filename.txt sparas
+
+Att spara ändringar man gjort på datorn i git kallas för "commit" och man skriver
+git commit -m "kommentar"
 
 För att återställa en fil som man av misstag har ändrat i så skriver man:
 git checkout filnamn
 
+Detta kommer återställa filen till sitt originalskick.
+
+
+Spara ändringar på github
+=========================
+git push
+
+Hämta ändringar från github
+===========================
+git pull
+
+
+Avancerat användande
+====================
 För att titta på historiken i labben så skriver man:
 git log
 
-
-Avancerat användande:
-
-Ta bort en fil:
+Om man behöver ta bort en fil:
 git rm -r filename.txt
-
-
-git checkout -b master
-git push origin master
-git pull origin
