@@ -24,6 +24,10 @@ Hämta ändringar från github:
 git pull
 
 
+För att återställa en fil som man av misstag har ändrat i så skriver man:
+git checkout filnamn
+
+För att titta på historiken i labben så skriver man:
 git log
 
 
